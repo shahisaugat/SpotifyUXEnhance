@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#62CD5D</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="buttonColor">#62CD5D</color>
+    <color name="buttonImageTint">#505050</color>
+    <color name="textColor">#505050</color>
+    <color name="logoTint">#505050</color>
+    <color name="inputFieldColor">#505050</color>
+    <color name="horizontalRuler">#8A8A8A</color>
+    <color name="dialogColor">#F6F6F6</color>
+</resources>

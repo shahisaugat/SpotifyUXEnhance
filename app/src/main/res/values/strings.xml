@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Spotify</string>
+    <string name="brand_logo">Brand Logo</string>
+    <string name="onboard_title">Enjoy Listening To Music</string>
+    <string name="get_started">Get Started</string>
+    <string name="onboard_subtitle">Discover a world of music, personalized just for you. Explore millions of tracks across every genre, anytime, anywhere.</string>
+    <string name="back_button">Back Button</string>
+    <string name="sign_in">Sign In</string>
+    <string name="support_text">If You Need Any Support Click Here</string>
+    <string name="username_field">Enter Username Or Email</string>
+    <string name="password">Password</string>
+    <string name="password_recovery">Password Recovery</string>
+    <string name="google_login_button">Google Login Button</string>
+    <string name="apple_login_button">Apple Login Button</string>
+    <string name="not_a_member_register_now">Not A Member? Register Now</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Enter Email Address</string>
+    <string name="new_password">New Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+</resources>
