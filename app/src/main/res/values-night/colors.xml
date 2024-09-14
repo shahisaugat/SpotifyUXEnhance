@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#62CD5D</color>
-    <color name="backgroundColor">#1C1B1B</color>
+    <color name="backgroundColor">#1B1919</color>
     <color name="buttonColor">#62CD5D</color>
     <color name="buttonImageTint">#DDDDDD</color>
     <color name="textColor">#DDDDDD</color>
@@ -9,4 +9,7 @@
     <color name="inputFieldColor">#DDDDDD</color>
     <color name="horizontalRuler">#E6E6E6</color>
     <color name="dialogColor">#08FFFFFF</color>
+    <color name="buttonColorSecondary">#DDDDDD</color>
+    <color name="textColorSecondary">#1C1B1B</color>
+    <color name="designatedField">#DDDDDD</color>
 </resources>

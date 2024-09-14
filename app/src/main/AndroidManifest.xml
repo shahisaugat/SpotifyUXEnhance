@@ -13,6 +13,13 @@
         android:theme="@style/Theme.Spotify"
         tools:targetApi="31">
         <activity
+            android:name=".presentation.setup.FinalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.setup.DobActivity"
+            android:exported="false">
+        </activity>
+        <activity
             android:name=".presentation.authentication.SignupActivity"
             android:exported="false" />
         <activity

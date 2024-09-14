@@ -19,4 +19,14 @@
     <string name="new_password">New Password</string>
     <string name="create_account">Create Account</string>
     <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="default_web_client_id">825740337493-qglh0b6kblvmen6anfa56v89avprqqr6.apps.googleusercontent.com</string>
+    <string name="next">Next</string>
+    <string name="dob_question">What\'s your date of birth?</string>
+    <string name="name_question">What\'s your name?</string>
+    <string name="sample_name">Saugat Shahi</string>
+    <string name="info_text">This appears on your Spotify profile</string>
+    <string name="required">REQUIRED</string>
+    <string name="term_sheet_text">I agree to the Spotify Terms of Use and Privacy Policy</string>
+    <string name="terms_of_use_btn">Terms of Use</string>
+    <string name="privacy_policy_btn4">Privacy Policy</string>
 </resources>

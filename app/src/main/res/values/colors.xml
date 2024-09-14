@@ -9,4 +9,7 @@
     <color name="inputFieldColor">#505050</color>
     <color name="horizontalRuler">#8A8A8A</color>
     <color name="dialogColor">#F6F6F6</color>
+    <color name="buttonColorSecondary">#505050</color>
+    <color name="textColorSecondary">#FFFFFF</color>
+    <color name="designatedField">#14656565</color>
 </resources>
