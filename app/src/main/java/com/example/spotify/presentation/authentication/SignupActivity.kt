@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuth
 class SignupActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignupBinding
     private lateinit var mAuth: FirebaseAuth
-    private lateinit var dialog: AlertDialog
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -36,36 +36,19 @@ class SignupActivity : AppCompatActivity() {
         mAuth = FirebaseAuth.getInstance()
 
         binding.createAccountButton.setOnClickListener {
-            showProcessingDialog()
             val fullName = binding.fullNameEntryField.text.toString()
             val emailAddress = binding.emailEntryField.text.toString()
             val password = binding.passwordEntryField.text.toString()
 
-            Handler(Looper.getMainLooper()).postDelayed({
-                mAuth.createUserWithEmailAndPassword(emailAddress, password)
-                    .addOnCompleteListener(this) { task ->
-                        if (task.isSuccessful) {
-                            dialog.dismiss()
-                            val intent = Intent(this, DobActivity::class.java).apply {
-                                if (fullName.isNotEmpty()) {
-                                    putExtra("full_name", fullName)
-                                }
-                            }
-                            startActivity(intent)
-                            finish()
-                        }
-                    }
-            }, 3000)
+            val intent = Intent(this, DobActivity::class.java).apply {
+                if (fullName.isNotEmpty()) {
+                    putExtra("full_name", fullName)
+                    putExtra("email_address", emailAddress)
+                    putExtra("password", password)
+                }
+            }
+            startActivity(intent)
+            finish()
         }
-    }
-
-    @SuppressLint("InflateParams")
-    private fun showProcessingDialog() {
-        val dialogView: View = LayoutInflater.from(this).inflate(R.layout.processing_dialog, null)
-        dialog = AlertDialog.Builder(this)
-            .setView(dialogView)
-            .setCancelable(false)
-            .create()
-        dialog.show()
     }
 }

@@ -41,14 +41,17 @@ class DobActivity : AppCompatActivity() {
             val selectedMonth = binding.monthPicker.value
             val selectedYear = binding.yearPicker.value
             val fullName = intent.getStringExtra("full_name")
+            val emailAddress = intent.getStringExtra("email_address")
+            val password = intent.getStringExtra("password")
 
             val intent = Intent(this, FinalActivity::class.java).apply {
                 putExtra("full_name", fullName)
                 putExtra("day", selectedDay)
                 putExtra("month", selectedMonth)
                 putExtra("year", selectedYear)
+                putExtra("email_address", emailAddress)
+                putExtra("password", password)
             }
-
             startActivity(intent)
         }
     }
